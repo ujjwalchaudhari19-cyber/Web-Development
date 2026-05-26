@@ -1,0 +1,27 @@
+.number1{
+  background-color: rgb(253, 161, 176);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#number2{
+  color: rgb(26, 26, 255);
+  font-size: 60px;
+}
+
+.number3#number3{
+    background-color: rgb(253, 161, 176);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#number4{
+  background-color: rgb(113, 255, 69);
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.number5{
+  background-color: rgb(253, 161, 176);
+  font-size: 25px;
+}
