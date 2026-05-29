@@ -1,0 +1,38 @@
+.header{
+  background-color: papayawhip;
+  font-family: monospace;
+  width: 750px;
+}
+
+a{
+  text-decoration: none;
+  background-color: white;
+  padding: 8px;
+  font-size: 22px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.logo{
+  font-size: 48px;
+  color: tomato;
+  background-color: white;
+  padding: 4px 32px;
+  font-weight: 900;
+}
+
+ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 8px;
+}
+
+.header{
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+}

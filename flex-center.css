@@ -1,0 +1,24 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  height: 300px;
+  width: 500px;
+  background-color: rgb(57, 140, 235);
+  border: solid 4px rgb(0, 58, 167);
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.center-div{
+  background-color: rgb(236, 110, 152);
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border: solid 7px maroon;
+}
