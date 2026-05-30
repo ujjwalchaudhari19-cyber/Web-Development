@@ -1,0 +1,25 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+  height: 150px;
+}
+
+.flex-container{
+  gap: 70px;
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  margin:auto;
+}
+
+p{
+  text-align: center;
+}
+
+.header{
+  font-size: 42px;
+  text-align: center;
+  font-weight: 600;
+}
