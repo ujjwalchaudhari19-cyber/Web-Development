@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sum of tripled even numbers</title>
+  </head>
+
+  <body>
+    <script>
+      const arr=[1,2,3,4,5,6,7,8,9,10];
+      function evenNumbers(num){
+        return num % 2==0;
+      }
+
+      const filteredArr=arr.filter(evenNumbers);
+
+      function tripleEvenNumbers(num){
+        return num *3;
+      }
+
+      const mappedArr=filteredArr.map(tripleEvenNumbers);
+
+      const sumOfTripleEvenNumbers=mappedArr.reduce((total,currentItem) =>{
+        return total+currentItem;
+      },0);
+
+      console.log(sumOfTripleEvenNumbers)
+    </script>
+
+  </body>
+</html>

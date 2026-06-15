@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Reduce Method</title>
+  </head>
+
+  <body>
+    <p><h3>Array method 3</h3></p>
+
+    <script>
+      const arr= [1,2,3,4,5,6];
+      const productOfAllNums=arr.reduce((total,currentItem) => {
+        return total*currentItem;
+      },1)
+      console.log(productOfAllNums);
+      console.log(arr);
+    </script>
+
+  </body>
+</html>

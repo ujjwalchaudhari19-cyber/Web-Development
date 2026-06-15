@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Filter Method</title>
+  </head>
+
+  <body>
+    <p><h3>Array method 2</h3></p>
+
+    <script>
+      function isOdd(num){
+        return num%2 !==0;
+      }
+
+      const arr= [1,2,3,4,5,7];
+      const oddNums=arr.filter(isOdd);
+      console.log(oddNums);
+      // Filter method expects the callback return either true or false.
+      // If its true, it is included if its false it isn't.
+      // In this case we have used to remove all the even numbers from the array.
+    </script>
+
+  </body>
+</html>
