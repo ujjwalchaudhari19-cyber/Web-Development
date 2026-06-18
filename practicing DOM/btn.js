@@ -12,3 +12,10 @@ buttons.forEach((button) => {
     alert(button.id);
   });
 });
+
+let link = document.querySelector('a');
+
+link.addEventListener('click', function(event){
+  console.log('clicked');
+  event.preventDefault();
+});
